@@ -12,7 +12,7 @@
     font-family: Garamond;
 }
 
-.posizionelogo{
+.posizionelogo{           /*questa class mi sembra inutile ma se la tolgo l'id logoinbasso fa cose strano, oltretutto se metto position:relative qui il logo sparisce mentre se non lo metto va bene????? */
     margin: auto;
     width: 1100px;
 }
@@ -55,9 +55,19 @@
 
 
 .tabellablu{
-
+    border-collapse:collapse;
 }
-                     
+
+.tableheader{
+    background-color:lightskyblue;
+    color:white;
+    font-size: bold;
+}
+
+.tableaqua{
+    background-color: lightblue;
+}
+
 .adtext{
     font-size: 20px;
     color:gray; 
