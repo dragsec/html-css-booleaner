@@ -53,4 +53,23 @@
     font-weight: 700;
 }
 
+.adtext{
+    font-size: 20px;
+    color:gray; 
+    font-weight: bolder;
+}
+
+.ad1{
+    position: relative;
+}
+
+.adlorem1{
+    font-size: 26px;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+
 
