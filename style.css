@@ -4,7 +4,9 @@
     width: 1300px;
     background-color: rgb(35, 156, 255);
     position: relative;
-    background-repeat: repeat-y;
+    background-image: url("img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 40%;
 
 
 }
@@ -13,7 +15,7 @@
     font-family: Garamond;
 }
 
-.posizionelogo{           /*questa class mi sembra inutile ma se la tolgo l'id logoinbasso fa cose strano, oltretutto se metto position:relative qui il logo sparisce mentre se non lo metto va bene????? */
+.posizionelogo{           
     margin: auto;
     width: 1100px;
 }
