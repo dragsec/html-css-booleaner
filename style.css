@@ -2,8 +2,9 @@
     margin: auto;
     height: 130px;
     width: 1300px;
-    background-color: aquamarine;
+    background-color: rgb(35, 156, 255);
     position: relative;
+    background-repeat: repeat-y;
 
 
 }
